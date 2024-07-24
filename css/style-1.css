@@ -1,0 +1,803 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@media screen and (max-width:1190px) {
+    .top_auto,
+    .nav_auto,
+    .toolbar_auto {
+        width: 990px;
+    }
+    .search {
+        width: 245px;
+    }
+    .search_left {
+        width: 356px;
+    }
+    .top_search {
+        width: 450px;
+    }
+    .body_auto,
+    .img_body {
+        width: 990px;
+    }
+    #banner,
+    .banner_list a,
+    .banner_list img {
+        height: 316px;
+    }
+    .banner_list img {
+        width: 990px;
+        margin-left: -495px;
+    }
+    .banner_list dl,
+    .banner_num {
+        margin-left: -475px;
+    }
+    .classify {
+        margin-left: 225px;
+        height: 316px;
+    }
+    .classify a {
+        height: 73px;
+    }
+    .classify a dl dd.name {
+        padding: 12px 0 0;
+    }
+    .classify a dl dt {
+        margin: 25px 15px 0;
+    }
+    .classify a dl dt.pet {
+        margin: 25px 15px 0 14px;
+    }
+    .classify a dl dt.train {
+        margin: 25px 17px 0;
+    }
+    .classify a dl dt.medical {
+        margin: 28px 17px 0;
+    }
+    .img_list {
+        width: 179px;
+    }
+    .img_list a dl {
+        background: rgba(255, 255, 255, 0.5);
+    }
+    .img_list a dl dt {
+        position: relative;
+    }
+    .img_list a dl dd {
+        position: relative;
+    }
+    .dog_rig {
+        width: 599px;
+    }
+    .dog_bot_r {
+        display: none;
+    }
+    .dog_r_b_c_body {
+        width: 601px;
+    }
+    .dog_r_b_c_body a {
+        width: 169px;
+        padding: 10px 15px;
+    }
+    .dog_r_b_c_body a dl dt {
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+        margin-right: 0;
+    }
+    .dog_r_b_c_body a dl dd {
+        float: right;
+        width: 99px;
+    }
+}
+
+@media screen and (max-width:1462px) {
+    .float_left {
+        display: none
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 12px;
+    position: static;
+    color: #000;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+ul,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+p,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+.toolbar_auto img {
+    width: 18px;
+    height: 18px;
+}
+
+img {
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f65;
+    text-decoration: underline;
+}
+
+input {
+    outline: 0;
+}
+
+a:focus {
+    outline: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.none {
+    display: none;
+}
+
+.clearfix:after {
+    display: block;
+    font-size: 0;
+    content: ".";
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.top_auto {
+    width: 1190px;
+    margin: 10px auto 0;
+    height: 88px;
+    position: relative;
+}
+
+.top_auto li {
+    list-style: none;
+}
+
+.logo {
+    float: left;
+    width: 180px;
+    height: 88px;
+}
+
+.logo img {
+    width: 150px;
+    height: 88px;
+    display: block;
+}
+
+.top_search {
+    width: 590px;
+    margin: 25px 0 0 75px;
+}
+
+.top_search-left {
+    float: left;
+    width: 496px;
+    height: 34px;
+    border: 2px solid #f65;
+    border-right: none;
+}
+
+.search_text {
+    float: left;
+    width: 90px;
+    position: relative;
+    z-index: 10;
+}
+
+.top_search {
+    width: 590px;
+    margin: 25px 0 0 75px;
+}
+
+.search_left {
+    float: left;
+    width: 496px;
+    height: 34px;
+    border: 2px solid #f65;
+    border-right: none;
+}
+
+.search_text {
+    float: left;
+    width: 90px;
+    position: relative;
+    z-index: 10;
+}
+
+.search_select {
+    background: #fff;
+    border: 1px solid #ddd;
+    left: -2px;
+    line-height: 25px;
+    padding: 1px;
+    position: absolute;
+    top: 34px;
+    width: 88px;
+}
+
+.search {
+    float: left;
+    border: none;
+    width: 385px;
+    height: 20px;
+    padding: 7px 10px;
+    float: left;
+    font: 14px "微软雅黑";
+    color: #666;
+    background: none;
+}
+
+.search_btn {
+    background: #f65;
+    height: 38px;
+    width: 92px;
+    cursor: pointer;
+    float: left;
+    font: 18px "微软雅黑";
+    color: #fff;
+    border: none;
+}
+
+.top_ad img {
+    width: 270px;
+    height: 88px;
+    float: right;
+}
+
+#nav {
+    height: 44px;
+    background: #f65;
+}
+
+.nav_auto {
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9;
+}
+
+.nav {
+    display: inline-block;
+    display: inline;
+    zoom: 1;
+    border-right: 1px solid #e35342;
+}
+
+.nav li {
+    float: left;
+    width: 90px;
+    border-left: 1px solid #e35342;
+    position: relative;
+}
+
+.nav li p a {
+    display: block;
+    text-align: center;
+    height: 44px;
+    color: #FFF;
+    font: 18px/44px "微软雅黑", tahoma, arial, sans-serif;
+    cursor: pointer;
+}
+
+.nav li p a em {
+    width: 9px;
+    height: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 5px;
+}
+
+.nav li p a em.up {
+    background-position: -143px -9px;
+}
+
+.nav li p a:hover {
+    color: #FFF;
+    background: #de4e3e;
+    text-decoration: none;
+}
+
+.nav li.current {
+    background: #e54;
+}
+
+.nav li.current p a:hover {
+    background: #e54;
+}
+
+.nav_list {
+    position: absolute;
+    left: -1px;
+    top: 42px;
+    padding: 10px 0 15px 20px;
+    width: 670px;
+    z-index: 99;
+    border: 1px solid #de4e3e;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    background: #FFF;
+    visibility: hidden;
+}
+
+.nav_list_l {
+    float: left;
+    width: 470px;
+    border-right: 1px dashed #ccc;
+    padding: 0 0 10px;
+}
+
+.nav_list_body {
+    overflow: hidden;
+}
+
+.nav_list_body dl dt dd:hover {
+    visibility: visible;
+}
+
+.nav_list_body dl:hover {
+    float: left;
+    width: 230px;
+    padding: 0 5px 0 0;
+}
+
+.nav_list_body dl dt {
+    font: 16px/18px "微软雅黑", tahoma, arial, sans-serif;
+}
+
+.nav_list_body dl dt a {
+    color: #f65;
+}
+
+.nav_list_body dl dd {
+    overflow: hidden;
+}
+
+.nav_list_body dl dd a {
+    float: left;
+    margin: 9px 15px 0 0;
+    font: 14px/16px "微软雅黑", tahoma, arial, sans-serif;
+    white-space: nowrap;
+}
+
+.nav_list_r {
+    float: left;
+    width: 160px;
+    margin-left: 20px;
+}
+
+.nav_list_r dt {
+    padding: 0 0 5px;
+}
+
+.nav_list_r dt img {
+    display: block;
+    width: 100%;
+}
+
+.nav_list_r dd {
+    text-align: center;
+    padding: 5px 0 0;
+    color: #999;
+}
+
+.nav_list_r dd a {
+    font: 16px/16px "微软雅黑", tahoma, arial, sans-serif;
+    color: #333;
+}
+
+.nav_list_r dd a:hover {
+    color: #f65;
+}
+
+.nav li.menu_list p.p_hover a {
+    color: #FFF;
+    background: #de4e3e;
+}
+
+.nav li.menu_list_r {
+    width: auto;
+}
+
+.nav li.menu_list_r p a {
+    padding: 0 18px;
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+#toolbar {
+    height: 36px;
+    border-bottom: 1px solid #ddd;
+}
+
+.toolbar_left li {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.toolbar_left li a {
+    font: 14px/36px "Microsoft YaHei";
+    display: block;
+    height: 34px;
+}
+
+.toolbar_right li {
+    float: left;
+    height: 16px;
+    padding: 0 13px;
+    margin: 10px 0 0;
+    border-left: 1px solid #999;
+    position: relative;
+    z-index: 10;
+    font: 14px/14px "Microsoft YaHei";
+}
+
+.toolbar_right li a {
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+}
+
+.items {
+    width: 1400px;
+    height: 300px;
+    padding-left: 20px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.itemss {
+    width: 1400px;
+    height: 300px;
+    padding-left: 20px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #FFF;
+    float: left;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    background-size: cover;
+}
+
+.banner_content {
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin: auto;
+    margin-left: 300px;
+    margin-right: 10px;
+}
+
+.banner dl dt {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.banner_content dt {
+    text-align: left;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+
+.hot_right {
+    float: right;
+    width: 500px;
+    height: 420px;
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #FFFFEC;
+}
+
+.desc {
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    height: 20px;
+    background-color: #CFF;
+    transition: all .5s;
+    text-align: center;
+}
+
+.item:hover {
+    top: -5px;
+    box-shadow: 0 0 15px #FFF;
+}
+
+.item:hover .desc {
+    bottom: 0;
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    background-color: #F4FFFF;
+}
+
+#img_cont {
+    background: #f3f3f3;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd
+}
+
+.img_body {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+a.banner {
+    width: 890px;
+    height: 340px;
+    position: relative;
+    cursor: pointer
+}
+
+a.banner img {
+    width: 890px;
+    height: 340px
+}
+
+a.banner dl {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 850px;
+    height: 50px;
+    background: url("/Images/sitenew/channel/opacity.png") repeat;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: "Microsoft YaHei"
+}
+
+a.banner:hover {
+    text-decoration: none
+}
+
+a.banner dl dt {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+a.banner dl dd {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.hot {
+    width: 250px;
+    padding: 20px;
+    height: 300px;
+    background: #fff
+}
+
+.hot_tit {
+    border-bottom: 2px solid #ddd;
+    height: 26px
+}
+
+.hot_tit h2 {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    color: #f65;
+    border-bottom: 2px solid #f65;
+    padding: 0 10px 0 0;
+    font: normal 16px/26px "Microsoft YaHei"
+}
+
+.hot dl {
+    color: #999;
+    padding: 20px 0 0
+}
+
+.hot dl dt {
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.hot dl dt a {
+    color: #333
+}
+
+.hot dl dt a:hover {
+    color: #f65
+}
+
+.hot dl dd {
+    font-family: "SimSun";
+    padding: 5px 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.body_auto {
+    width: 1190px;
+    margin: 0 auto
+}
+
+.middle {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.text {
+    font-family: "微软雅黑";
+    font-size: 24px;
+}
+
+.more {
+    font-family: "微软雅黑";
+    font-size: 24px;
+    float: right;
+}
+
+.more a {
+    color: #F65;
+    text-decoration: none;
+}
+
+span {
+    color: #F65;
+    font-size: 24px;
+}
+
+.hot {
+    width: 250px;
+    padding: 20px;
+    height: 300px;
+    background: #fff
+}
+
+.hot_tit {
+    border-bottom: 2px solid #ddd;
+    height: 26px
+}
+
+.hot_tit h2 {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    color: #f65;
+    border-bottom: 2px solid #f65;
+    padding: 0 10px 0 0;
+    font: normal 16px/26px "Microsoft YaHei"
+}
+
+.hot dl {
+    color: #999;
+    padding: 20px 0 0
+}
+
+.hot dl dt {
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.hot dl dt a {
+    color: #333
+}
+
+.hot dl dt a:hover {
+    color: #f65
+}
+
+.hot dl dd {
+    font-family: "SimSun";
+    padding: 5px 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.body_auto {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.s_search {
+    position: absolute;
+    left: 255px;
+    top: 70px;
+    color: #666;
+}
+
+.s_search a {
+    color: #666;
+    margin-right: 10px;
+}
+
+.s_search a:hover {
+    color: #f65;
+    text-decoration: none;
+}

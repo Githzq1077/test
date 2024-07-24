@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0 auto; position:static;word-wrap: break-word;
+	background-color:#FFEAF4;
+    font-size: 14px;
+    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#FF7F00; 
+    overflow-x: hidden;
+}
+#banner{
+	/* background:url(../images/background.jpg) no-repeat center top; width:100%; */
+	height:420px;
+}
+.banner_body{
+	width:1022px;
+	margin:0 auto;
+	position:relative;
+	height:420px;
+}		
+#header{
+	width:980px;
+	border:1px solid #ccc;
+	overflow:hidden;
+	margin:0 auto;
+	padding:58px;
+	border-bottom:none;
+	position:relative;
+	background-color:#FFFFFF;
+}
+.head_dd dt a{
+	font-size:24px;
+	font-family:Microsoft YaHei;
+	color:#000000;
+}		
+
+#content{
+	width:990px;
+	margin:0 auto;
+	padding:0 0 0 10px;
+	overflow:hidden;
+	border:1px solid #f1f1f1;
+	margin-top:10px;
+	background:#FFFFFF; 
+}
+.con_dd{
+	width:720px;
+	height:120px;
+	padding:10px 0;
+	overflow:hidden;
+	border-bottom:1px dashed #FFD700;
+}
+.con_dd dt {padding:5px;}
+.con_dd dt a{
+	font-size:18px; 
+	color:#000000; 
+	font-family:Microsoft YaHei;	
+}
+*{
+	margin:0;
+	padding:0;
+	}
+ul, dl, dd, h1, h2, h3, h4, h5, h6, form, p, input, div{
+	margin:0;
+	padding:0;
+}
+img{
+	border:none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+ul{
+	list-style:none;
+}
+a{
+	color:#666;
+	text-decoration:none;
+}
+a:hover{
+	color:#ff4000;
+}
+a, area{
+	blr:expression(this.onFocus=this.blur());
+}
+input{
+	outline:0;
+}
+		a:focus { outline:0;}
+		*html,*html body{background-image:url(about:blank);background-attachment:fixed;}
+		.clearfix:after{ display:block; font-size:0; content:"."; clear:both; height:0; visibility:hidden;}
+		*html .clearfix{ *height:1%;}
+		.none{ display:none;}
+		/***bar***/
+		.BarBox{ background:#FFF; height:35px; margin-bottom:0px; margin:0 auto;}
+		.w1000{ width:1022px; margin:0 auto;}
+		.Bar{ font-size:12px;}
+		.Bar a{ text-decoration:none;}
+		.Bar a:hover{ color:#FF4000; text-decoration:underline;}
+		.Clocet{ line-height:35px; float:left; color:#999; font-size:12px; background:url(../../../Images/baike/zhuanti/bar_icon.png) no-repeat 0px 11px; padding-left:18px;}
+		a.Clocet:hover{ text-decoration:none}
+		.Subnv{ float:right;margin-right:50px;display:inline;list-style:none;}
+		.Subnv li{float:left; line-height:35px; margin-left:10px; display:inline;padding-left:15px;}
+		.Subnv li.li_none{ background:none;}
+		.Subnv li a{ color:#666;}
+		.Tel400{ float:right;padding-left:18px; color:#666; line-height:35px;}
+		.head_dd dt {padding:5px 0;}
+		/* .sc{ position:absolute; width:118px; height:40px; left:8px; top:63px;}
+		.sc a{ display:block; height:40px;} */
+		/***footer***/
+		.footer{ margin-top:20px; height:40px; line-height:40px; background:#f0f0f0; text-align:center; color:#666;}
+		.footer span{ font-family:Arial,Helvetica,sans-serif;}
+		.footer a{ color:#666; font-size:12px;}
+		.footer a:hover{ text-decoration:underline;}
+		
+		/***header***/
+		
+		.head_dd .su{float:right;width:540px;letter-spacing:1.5px;}
+		.share_cont{ position:absolute; right:200px; bottom:10px; width:350px;}
+		/*****content*****/
+		.con_left{width:720px;border-right:1px solid #f1f1f1;}
+		.con_dd .sd{width:520px;padding-right:20px;float:right;letter-spacing:1.5px;}
+		.con_right{width:267px;margin:0;overflow:hidden;}
+		
+		.page_wrap{ clear:both; padding:0 0 0 0; overflow:hidden;zoom:1; }
+		.showpage {font-family:Tahoma; font-size:12px; height:25px; overflow:hidden; text-align:center; padding:20px 0; }
+		.showpage a,
+		.showpage span { display:inline-block;height:25px;line-height:25px; margin:0 3px 0 0; text-align:center; white-space:nowrap; vertical-align:middle;  }
+		.showpage a { color:#333;text-decoration:none; background-color:#F1F1F1; cursor:pointer; }
+		.showpage a:hover { border:1px solid #CFDFEB;color:#1481BD;}
+		.showpage a:link,
+		.showpage a:visited,
+		.showpage a:hover,
+		.showpage a:active { text-decoration:none; background-color:#fff; }
+		.showpage a{ padding:0 8px; border:1px solid #E1E1E1; background:#fff; }
+		
+		.showpage .page-prev span, .showpage .page-next span{ height:19px; line-height:14px; _line-height:15px; padding-top:3px; padding-top:5px\9; margin:0;}
+		.showpage .page-this,
+		.showpage .page-break { padding:0 3px; }
+		.showpage .page-break { border:1px solid #fff; }
+		.showpage .page-this { border:1px solid #CFDFEB;background-color:#F0F9FE; color:#1481BD; padding:0px 8px; }
+		.showpage .input_num{ width:35px; height:25px; line-height:25px; text-align:center; border:1px solid #CFDFEB;background:url(../../../Images/zhuanti/baike/input_bg.gif) repeat-x top #fff; vertical-align:middle;}
+		.showpage .num{ padding:0 5px; #padding-top:3px;}
+		.showpage .txt{#padding-top:1px;}
+		.showpage .goto_btn{ width:47px; height:27px; line-height:27px; display:inline-block;background:url(../../../Images/baike/zhuanti/common_btn.png) no-repeat -118px 0; padding:0; border:none; vertical-align:middle;}
+		.showpage  a.goto_btn:hover{ background-position:-118px -27px; border:none;}
+
+
+
+.widgets {
+    padding: 15px 20px;
+    margin-top: 50px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.widgets h4 {
+    font-size: 20px;
+    border-bottom: 2px solid #FF5E52;
+    float: left;
+}
+
+.widgets .body {
+    clear: both;
+}
+#content .discuz li {
+    height: 40px;
+    padding: 10px 0;
+    border-bottom: 1px solid #EEE;
+}
+
+#content .discuz li:hover {
+    background-color: #FBFBFB;
+}
+
+#content .discuz li > a {
+    display: block;
+}
+
+#content .discuz .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    float: left;
+}
+
+#content .discuz .txt {
+    height: 40px;
+    line-height: 20px;
+    padding-left: 50px;
+    font-size: 12px;
+    color: #999;
+}
+
+#content .discuz .txt span {
+    color: #666;
+    margin-right: 5px;
+}
+#content .random li {
+    height: 60px;
+    padding: 10px 0;
+    border-bottom: 1px solid #EEE;
+}
+
+#content .random p {
+    float: left;
+    clear: both;
+    line-height: 20px;
+}
+
+#content .random .title {
+    width: 160px;
+    font-size: 14px;
+    color: #444;
+}
+
+#content .random .reading {
+    font-size: 12px;
+    color: #999;
+}
+
+#content .random .pic {
+    width: 80px;
+    height: 100%;
+    padding-left: 180px;
+}
+
+#content .random li:hover {
+    background-color: #F8FCFE;
+}
+
+#content .random li:hover .title {
+    color: #FF5E52;
+}

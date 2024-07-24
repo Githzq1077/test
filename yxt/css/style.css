@@ -1,0 +1,15 @@
+
+canvas#canvas {
+  display: block;
+  background: #FCFAEE;
+}
+#bac{
+  z-index: 1;
+  position: absolute;
+
+}
+#data{
+  z-index: 2;
+  position: absolute;
+  left: 265px;
+}
